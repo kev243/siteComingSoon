@@ -75,8 +75,54 @@ header .container .main-content .texte h1{
 
 
 header .container .main-content .texte span{
-    color: white; 
+    color: white;
+    font-size: 0.9em; 
+}
+
+
+ header .container .main-content .search-box{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #292929;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
  }
+
+
+ header .container .main-content .search-box .notify-me{
+   color: black;
+   float: right;
+   height: 40px;
+   width: 100px;
+   border-radius: 5px;
+   background: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+header .container .main-content .search-box .search-txt{
+    border: none;
+    background: none;
+    outline:none;
+    float: left;
+    padding: 0;
+    color: #727272;
+    font-size: 16px;
+    line-height: 40px;
+    width: 240px;
+}
+
+
+
+
+ 
+
 
     
 
